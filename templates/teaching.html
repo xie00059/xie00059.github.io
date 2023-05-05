@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="section container">
+  <h3 class="title is-3">Teaching</h3>
+  <hr>
+
+  {% for page in section.pages %}
+  <div class="card mx-5 mt-6">
+    <div class="card-content">
+      <p class="title is-4">
+        {{ page.title }}
+      </p>
+      
+      <p class="subtitle is-5" style="color: #000000;"><strong>
+        {{ page.extra.term }}, {{ page.extra.school}}
+      </strong></p>
+
+      <p class="is-6" style="padding-bottom: 1rem;">
+        <strong>{{ page.extra.role}}</strong>, {{ page.extra.duty}}
+      </p>
+      
+      {% if page.extra.highlight %}
+      <p class="is-6"><strong>
+        {{ page.extra.highlight}}
+      </strong></p>
+      {% endif %}
+    </div>
+    {% if page.extra.extra %}
+    <footer class="card-footer">
+      <p class="card-footer-item">
+        <span>
+          View the <a>paper</a>
+        </span>
+      </p>
+      <p class="card-footer-item">
+        <span>
+          Checkout the <a>code</a>
+        </span>
+      </p>
+    </footer>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</section>
+
+{% endblock content %}

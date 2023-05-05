@@ -1,0 +1,51 @@
+@import "../node_modules/bulma/sass/utilities/derived-variables.sass"
+
+$personal-grey: #efefef
+$uq-purple: #51247a
+$uq-purple-light: #962a8b
+
+$neutral: #d7d1cc
+$neutral-80: #dfdad6
+$neutral-60: #e7e3e0
+$neutral-40: #f0eceb
+$neutral-20: #f7f6f5
+$dark-text: #2e2e2e
+
+$addColors: ("uq": ($uq-purple, $neutral-60), "personal-grey": ($personal-grey, $dark-text), "uq-light": ($uq-purple-light, $neutral-20))
+$colors: map-merge($colors, $addColors)
+
+@import "../node_modules/bulma/bulma.sass"
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
+
+@mixin phone-width
+  @media screen and (max-width: 1023px)
+    @content
+
+.lake
+  background: url('img/banner.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.lake-text
+  border-radius: 1rem
+  padding: 1.5rem 3rem 1.5rem 1.5rem
+  background: rgba(0, 0, 0, 0.5)
+
+.card
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+  transition: 0.3s
+  width: 100%
+
+.cardbody
+  display: grid
+  grid-template-columns: 3fr 2fr
+  margin: 0.5em
+  padding: 0.5em
+
+.cardcover
+  max-height: 250px
+  width: 100%
+  object-fit: contain
+  object-position: center
+  

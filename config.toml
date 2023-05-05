@@ -1,0 +1,76 @@
+# The URL the site will be built for
+base_url = "https://xie00059.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+
+# Author of the page
+author = "Fuman Xie"
+
+# Role of the author
+role = "PhD Candidate"
+
+# Organizations of the author
+organizations = [ { name = "The University of Queensland" } ]
+
+# Protrait photo
+image = "/img/profile.jpg"
+
+# Whether the navbar should be screen wide or page wide
+wide_navbar = false
+
+# Social icons that will appear under your profile box
+social_icons = [
+{icon="fa-envelope", icon_pack="fa", link=""},
+{icon="ai-google-scholar", icon_pack="ai", link=""},
+{icon="fa-github", icon_pack="fa-brands", link="https://github.com/xie00059" },
+{icon="fa-orcid", icon_pack="fa-brands", link="" },
+]
+
+# Your interests
+interests = [
+    { label = "Photography"},
+    { label = "Travel"},
+    { label = "Cooking"},
+    { label = "History"},
+]
+
+# Your diplomas
+education = [
+{course = "Ph.D. in Computer Science", institution = "The University of Queensland", year = "2022-", description = ""},
+]
+
+# Your work experience
+career = [
+{employer = "", year = "", title = ""},
+]
+
+# Your languages
+languageskills = [
+  {language = "English", proficiency = "Proficient"},
+  {language = "Chinese", proficiency = "Proficient in Mandarin"},
+]
+
+# The ways people can contact you
+# contact_links = [
+#   {icon= " fa-envelope", icon_pack="fa", name = "Email me", link="mailto:email@example.com"},
+#   {icon = "fa-twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+#   {icon = "fa-skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+#   {icon = "fa-keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+#   {icon = "fa-comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://zola.discourse.group/"},
+#   {icon = "fa-discord", icon_pack = "fab", name = "John Doe #9999"},
+# ]
+
+# To download your CV files
+cvlink = "cv-xie00059.pdf"

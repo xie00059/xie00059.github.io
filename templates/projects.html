@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="section container px-1">
+
+
+  <h3 class="title is-3">Selected Research Projects</h3>
+  <hr>
+
+
+  <div class="columns is-desktop is-multiline">
+
+  {% for page in section.pages %}
+
+  <div class="column is-half-desktop">
+  <div class="card mt-2">
+
+    <div class="card-content">
+      <p class="title is-4">
+        {{ page.title }}
+      </p>
+      <img class="cardcover" src="{{ page.extra.cover }}" alt="Currently the cover image is not available">
+
+      <p class="subtitle is-6 py-1" style="color: #000000;">
+        {{ page.extra.description }}
+      </p>
+    </div>
+  
+    
+    {% if page.extra.highlight %}
+    <footer class="card-footer">
+      {% for highlight in page.extra.highlight %}
+      <p class="card-footer-item">
+        <span>
+          {{ highlight.text }}<a href="{{ highlight.link }}" target="_blank">{{ highlight.ref }}</a>{{ highlight.text_after }}
+        </span>
+      </p>
+      {% endfor %}
+    </footer>
+    {% endif %}
+  </div>
+
+</div>
+  {% endfor %}  
+  </div>
+
+</section>
+
+{% endblock content %}

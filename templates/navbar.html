@@ -1,0 +1,79 @@
+<nav class="navbar is-fixed-top is-personal-grey" role="navigation" aria-label="main navigation">
+
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/" style="padding: 0;">
+      <img src="/img/title.png" alt="Fuman Xie" style="max-height:2.25rem; padding: 0rem 0.5rem 0rem 2rem;">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarMenu" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/news/">
+        <span class="icon-text">
+          <!--span class="icon">
+            <i class="fa-solid fa-calendar-day"></i>
+          </span-->
+          <span><strong>News</strong></span>
+      </a>
+
+      <a class="navbar-item" href="/publications/">
+        <span class="icon-text">
+          <!--span class="icon">
+            <i class="fa-solid fa-book-bookmark"></i>
+          </span-->
+          <span><strong>Publications</strong></span>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="/projects/">
+        <span class="icon-text">
+          <!--span class="icon">
+            <i class="fa-solid fa-list-check"></i>
+          </span-->
+          <span><strong>Projects</strong></span>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="/teaching/">
+        <span class="icon-text">
+          <!--span class="icon">
+            <i class="fa-solid fa-list-check"></i>
+          </span-->
+          <span><strong>Teaching</strong></span>
+        </span>
+      </a>
+
+      <a class="navbar-item" href="/cv/">
+        <span class="icon-text">
+          <!--span class="icon">
+            <i class="fa-solid fa-list-check"></i>
+          </span-->
+          <span><strong>CV</strong></span>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+
+</nav>

@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero is-halfheight is-uq">
+  <div class="hero-body lake">
+    <div class="lake-text">
+      <h1 class="title">
+        Fuman Xie
+      </h1>
+      <h2 class="subtitle">
+        Find more in my <a href="../{{ config.extra.cvlink }}" style="text-decoration: underline;" download><strong>CV</strong></a>
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section container">
+
+<!--div class="card mt-1" style="background-color:#f7f7f7;">
+  <div class="card-content" style="text-align:center;">
+    <p class="title is-4">
+      Find more in my <a href="../{{ config.extra.cvlink }}" style="text-decoration: underline;" download>CV</a>
+    </p>
+    </div>
+</div-->
+
+  <h3 class="title is-5">Education</h3>
+  <hr>
+
+  {% for education in config.extra.education %}
+  <div class="columns is-mobile" style="font-size:1rem;">
+      <span class="icon is-medium column is-narrow is-mobile">
+          <i class="fas fa-graduation-cap"></i>
+      </span>
+      <span class="column">
+          {{ education.course }}, {{ education.year }}<br/>
+          <span class="has-text-grey">{{ education.institution }}</span>
+          {% if education.description %}
+          <br/><span class="has-text-grey">{{ education.description }}</span>
+          {% endif %}
+      </span>
+  </div>
+{% endfor %}
+
+<h3 class="title is-5" style="margin-top:20px;">Work Experience</h3>
+  <hr>
+
+  {% for career in config.extra.career %}
+  <div class="columns is-mobile" style="font-size:1rem;">
+      <span class="icon is-medium column is-narrow is-mobile">
+          <i class="fas fa-briefcase"></i>
+      </span>
+      <span class="column">
+          {{ career.title }}, {{ career.year }}<br/>
+          <span class="has-text-grey">{{ career.employer }}</span>
+          {% if career.description %}
+          <br/><span class="has-text-grey">{{ career.description }}</span>
+          {% endif %}
+      </span>
+  </div>
+{% endfor %}
+
+
+<h3 class="title is-5" style="margin-top:20px;">Language</h3>
+  <hr>
+
+  {% for lang in config.extra.languageskills %}
+  <div class="columns is-mobile" style="font-size:1rem;">
+      <span class="icon is-medium column is-narrow is-mobile">
+          <i class="fas fa-earth-asia"></i>
+      </span>
+      <span class="column">
+          {{ lang.language }}
+          <span class="has-text-grey">({{ lang.proficiency }})</span>
+          {% if lang.description %}
+          <br/><span class="has-text-grey">{{ lang.description }}</span>
+          {% endif %}
+      </span>
+  </div>
+{% endfor %}
+
+<h3 class="title is-5" style="margin-top:20px;">Interest</h3>
+  <hr>
+
+  <div class="columns is-mobile" style="font-size:1rem;">
+    <span class="column">
+      <span class="has-text-grey">
+        
+  {% for interest in config.extra.interests %}
+
+        {% if interest.link %}<a href="{{ interest.link | safe }}">{{ interest.label }}</a> &nbsp; 
+        {% else %}
+        {{ interest.label }} &nbsp; 
+        {% endif %}
+  {% endfor %}
+          
+      </span>  
+      </span>
+    </div>                
+
+                              </section>
+
+{% endblock content %}

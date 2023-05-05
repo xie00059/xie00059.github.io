@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-10 is-offset-1">
+                <div class="columns is-desktop">
+                    <div class="column is-one-third-desktop">
+                        <div class="box has-text-centered">
+
+                            <figure class="image is-192x192 is-centered is-inline-block">
+                                <img src="{{ config.extra.image }}" alt="Fuman Xie" style="width:200px;height:200px;margin-bottom: 30px;">
+                            </figure>
+
+                            <div class="is-size-4"><strong>{{ config.extra.author }}</strong></div>
+                            <div class="p">{{ config.extra.role }}</div>
+                            {% for organization in config.extra.organizations %}
+                            <div class="p content">{{ organization.name }}</div>
+                            {% endfor %}
+                            <div class="content">
+                                {% for icon in config.extra.social_icons %}
+                                <a class="icon is-large fa-xl" href="{{icon.link | safe }}" target=”_blank” >
+                                    <i class="{{icon.icon_pack}} {{ icon.icon }}" style="color:#999999;"></i>
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-two-thirds-desktop">
+                        <div class="content" style="margin-top: 1rem;">
+                            {% for page in section.pages %}
+                            {% if page.relative_path == "about.md" %}
+                            <h1>{{ page.title }}</h1>
+                            {{ page.content | safe }}
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
