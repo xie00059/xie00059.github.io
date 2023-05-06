@@ -56,3 +56,4 @@ transparent = false
 # Your own data
 [extra]
 +++
+I’m a Ph.D. student in UQ Trust lab at the University of Queensland (School of ITEE). I received my Master of Engineering degree in the software field from UQ in 2021. I received my Bachelor of Software Engineering with Honors degree in 2020. My research interests include Software Privacy, Software Testing, and Software Engineering :D
