@@ -53,9 +53,9 @@ education = [
 ]
 
 # Your work experience
-career = [
-{employer = "", year = "", title = ""},
-]
+# career = [
+# {employer = "", year = "", title = ""},
+# ]
 
 # Your languages
 languageskills = [
