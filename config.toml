@@ -47,7 +47,9 @@ interests = [
 
 # Your diplomas
 education = [
-{course = "Ph.D. in Computer Science", institution = "The University of Queensland", year = "2022-", description = ""},
+{course = "Ph.D. in Computer Science", institution = "The University of Queensland, Australia", year = "2022-2025(Expected)", description = "Fully funded by UQ scholarship"},
+{course = "M.Eng. in Software Field", institution = "The University of Queensland, Australia", year = "2020-2021"},
+{course = "B.Eng. (Hons) in Software Engineering", institution = "The University of Queensland, Australia", year = "2016-2020"}
 ]
 
 # Your work experience
