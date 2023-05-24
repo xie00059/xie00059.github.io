@@ -35,7 +35,7 @@ social_icons = [
 {icon="fa-envelope", icon_pack="fa", link="mailto:fuman.xie@uq.edu.au"},
 {icon="ai-google-scholar", icon_pack="ai", link="https://scholar.google.com.my/citations?hl=en&pli=1&user=O_4wjM0AAAAJ"},
 {icon="fa-github", icon_pack="fa-brands", link="https://github.com/xie00059" },
-{icon="fa-linkedin", icon_pack="fa-brands", link="https://au.linkedin.com/in/fuman-xie-4b2083203" },
+{icon="fa-linkedin", icon_pack="fa-brands", link="https://www.linkedin.com/in/fuman-xie-4b2083203/" },
 ]
 
 # Your interests
