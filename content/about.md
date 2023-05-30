@@ -56,4 +56,4 @@ transparent = false
 # Your own data
 [extra]
 +++
-I'm a Ph.D. student in the UQ Trust Lab at the University of Queensland (School of ITEE). I received my Master of Engineering degree in the software field from UQ in 2021. I received my Bachelor of Software Engineering with Honours degree in 2020. My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.
+I'm a Ph.D. student in the UQ Trust Lab at the University of Queensland (School of ITEE). I received my Master of Engineering degree in the software field from UQ in 2021. I received my Bachelor of Software Engineering with Honours degree from UQ in 2020. My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.
