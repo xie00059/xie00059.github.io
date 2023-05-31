@@ -1,5 +1,5 @@
 +++
-title = "SKIPPER: An Open-sourced Python Package for Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps"
+title = "SKIPPER: Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps"
 date = "2022-08-22"
 [extra]
 description = "A three-phase solution to detect privacy policy (in)compliance cases on Amazon Alexa platform."
