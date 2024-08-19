@@ -1,5 +1,5 @@
 +++
-title = "Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps"
+title = "PICO: Checking Excessive Data Collection in VPA Apps"
 date = "2024-04-12"
 [extra]
 description = "A solution to checks the VPA app’s privacy compliance by analyzing (in)consistency between data requested and data essential for its functionality."
