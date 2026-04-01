@@ -79,3 +79,47 @@ transparent = false
   <span class="tag is-rounded" style="background:#fde68a;color:#333;margin:0.2rem;">Privacy Testing</span>
   <span class="tag is-rounded" style="background:#bfdbfe;color:#333;margin:0.2rem;">Privacy Compliance</span>
 </div>
+
+<hr style="margin-top:2rem;">
+
+<section>
+  <h2>Selected Publications</h2>
+
+  <h3>Privacy Compliance &amp; Analysis</h3>
+  <p>My core research investigates whether software systems (e.g.,  Virtual Personal Assistant apps) honour the privacy promises they make to users, and how privacy practices evolve across platforms over time.</p>
+  <ul>
+      <li>
+      Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps<br>
+      <small>ASE'22</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3551349.3560416">DOI</a>
+    </li>
+    <li>
+      Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps<br>
+      <small>ICSE'24</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3597503.363910">DOI</a>
+    </li>
+    <li>
+      On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications<br>
+      <small>PoPETS'24</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.56553/popets-2024-0028">DOI</a>
+    </li>
+    <li>
+      Investigating Documented Privacy Changes in Android OS<br>
+      <small>FSE'24</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3660826">DOI</a>
+    </li>
+  </ul>
+
+  <h3>Software Testing</h3>
+  <p>Testing and quality assurance underpin much of my privacy research. I also collaborate on broader software testing projects, applying similar analytical approaches to different software ecosystems.</p>
+  <ul>
+    <li>
+      Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations<br>
+      <small>ISSTA 2025</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3728945">DOI</a>
+    </li>
+    <li>
+      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents<br>
+      <small>TOSEM</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
+    </li>
+    <li>
+      When Voice Meets Touch: Conflict Analysis in Mobile Applications<br>
+      <small>TSE</small> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
+    </li>
+  </ul>
+</section>
