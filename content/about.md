@@ -90,19 +90,19 @@ research focused on privacy and security in software systems.</p>
   <p>1. <b>[Privacy Compliance &amp; Analysis]</b> My core research investigates whether software systems (e.g.,  Virtual Personal Assistant apps) honour the privacy promises they make to users, and how privacy practices evolve across platforms over time.</p>
   <ul>
       <li>
-      Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps [ASE'22] &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3551349.3560416">DOI</a>
+      Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps [ASE'22] &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/skipper-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3551349.3560416">DOI</a>
     </li>
     <li>
       Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps [ICSE'24]
-      &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3597503.363910">DOI</a>
+      &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/pico-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3597503.363910">DOI</a>
     </li>
     <li>
       On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications [PETS'24]
-      &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.56553/popets-2024-0028">DOI</a>
+      &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/popets-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.56553/popets-2024-0028">DOI</a>
     </li>
     <li>
       Investigating Documented Privacy Changes in Android OS [FSE'24]<br>
-      &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3660826">DOI</a>
+      &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/android-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3660826">DOI</a>
     </li>
   </ul>
 
@@ -110,14 +110,14 @@ research focused on privacy and security in software systems.</p>
   <ul>
     <li>
       Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations[ISSTA'25]
-      &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3728945">DOI</a>
+      &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/pythondoc-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3728945">DOI</a>
     </li>
     <li>
-      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM] &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
+      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM] &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/vuitesting-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
     </li>
     <li>
       When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE]
-      &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
+      &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/Voice_Meets_Touch-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
     </li>
   </ul>
 </section>
