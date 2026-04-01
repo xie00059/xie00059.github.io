@@ -70,7 +70,9 @@ transparent = false
 
 <p>I am a Postdoctoral Researcher at EECS school, the University of Queensland, and I am currently on the academic job market.</p>
 
-<p>Before that, I received my Ph.D. from UQ, where my research focused on privacy and security in software systems.</p>
+<p>Before that, I received my Ph.D. from UQ under the supervision of 
+<a href="https://baigd.github.io/">Prof. Guangdong Bai</a>, where my 
+research focused on privacy and security in software systems.</p>
 
 <p>My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.</p>
 
@@ -85,18 +87,17 @@ transparent = false
 <section>
   <h2>Selected Publications</h2>
 
-  <p>1. [Privacy Compliance &amp; Analysis] My core research investigates whether software systems (e.g.,  Virtual Personal Assistant apps) honour the privacy promises they make to users, and how privacy practices evolve across platforms over time.</p>
+  <p>1. <b>[Privacy Compliance &amp; Analysis]</b> My core research investigates whether software systems (e.g.,  Virtual Personal Assistant apps) honour the privacy promises they make to users, and how privacy practices evolve across platforms over time.</p>
   <ul>
       <li>
-      Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps [ASE'22]<br>
-     &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3551349.3560416">DOI</a>
+      Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps [ASE'22] &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3551349.3560416">DOI</a>
     </li>
     <li>
-      Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps [ICSE'24]<br>
+      Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps [ICSE'24]
       &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3597503.363910">DOI</a>
     </li>
     <li>
-      On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications [PETS'24]<br>
+      On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications [PETS'24]
       &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.56553/popets-2024-0028">DOI</a>
     </li>
     <li>
@@ -105,17 +106,17 @@ transparent = false
     </li>
   </ul>
 
-  <p>2. [Software Testing] Testing and quality assurance underpin much of my privacy research. I also collaborate on broader software testing projects, applying similar analytical approaches to different software ecosystems.</p>
+  <p>2. <b>[Software Testing]</b> Testing and quality assurance underpin much of my privacy research. I also collaborate on broader software testing projects, applying similar analytical approaches to different software ecosystems.</p>
   <ul>
     <li>
-      Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations[ISSTA'25]<br>
+      Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations[ISSTA'25]
       &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3728945">DOI</a>
     </li>
     <li>
-      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM]<br> &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
+      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM] &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
     </li>
     <li>
-      When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE]<br>
+      When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE]
       &nbsp;·&nbsp; <a href="#">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
     </li>
   </ul>
