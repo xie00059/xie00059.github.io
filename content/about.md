@@ -130,12 +130,13 @@ research focused on privacy and security in software systems.</p>
     <li>
       <strong>Doctor of Philosophy in Computer Science</strong>, 2022 – 2026<br>
       The University of Queensland, Australia<br>
-      Supervisors: Guangdong Bai (primary), <a href="https://guoweiyang.github.io/">Guowei Yang</a>, <a href="https://staff.itee.uq.edu.au/huang/">Zi (Helen) Huang</a><br>
-      Visiting PhD student of <a href="https://liyiweb.com/">Prof. Yi Li</a>, Nanyang Technological University, 2023
+      · Supervisors: Guangdong Bai (primary), <a href="https://guoweiyang.github.io/">Guowei Yang</a>, and <a href="https://staff.itee.uq.edu.au/huang/">Zi (Helen) Huang</a><br>
+      · Visiting PhD student of <a href="https://liyiweb.com/">Prof. Yi Li</a>, Nanyang Technological University, 2023
     </li>
     <li>
       <strong>Master of Engineering in Software</strong>, 2021<br>
       The University of Queensland, Australia
+      · Receive the Dean’s Commendation for Academic Excellence
     </li>
     <li>
       <strong>Bachelor of Software Engineering (Honours)</strong>, 2016 – 2020<br>
@@ -151,11 +152,11 @@ research focused on privacy and security in software systems.</p>
   <ul>
     <li>
       <strong>Postdoctoral Researcher</strong>, 2025 – Present<br>
-      UQ & TECH4HSE, Australia<br>
-      Advisors: <a href="https://scholar.google.com/citations?user=0vCxuH4AAAAJ&hl=en">Zhenchang Xing</a>, <a href="https://people.csiro.au/B/M/mohan-baruwalchhetri">Mohan Baruwal Chhetri</a>, <a href="https://about.uq.edu.au/experts/25114">Naipeng Dong</a>
+      UQ & CSIRO, Australia<br>
+      · Advisors: <a href="https://scholar.google.com/citations?user=0vCxuH4AAAAJ&hl=en">Zhenchang Xing</a>, <a href="https://people.csiro.au/B/M/mohan-baruwalchhetri">Mohan Baruwal Chhetri</a>, and <a href="https://about.uq.edu.au/experts/25114">Naipeng Dong</a>
     </li>
       <strong>Research Assistant</strong>, 2025<br>
-      UQ & TECH4HSE, Australia
+      UQ & CSIRO, Australia
     </li>
     <li>
       <strong>Thesis Mentor</strong>, 2023 – Present<br>
