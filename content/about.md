@@ -68,7 +68,7 @@ transparent = false
 
 <hr>
 
-<p>I am a Postdoctoral Researcher at EECS school, the University of Queensland, and I am currently on the academic job market.</p>
+<p>I am a Postdoctoral Researcher at the TECH4HSE project, jointly affiliated with the University of Queensland and CSIRO's Data61, and I am currently on the academic job market.</p>
 
 <p>Before that, I received my Ph.D. from UQ under the supervision of 
 <a href="https://baigd.github.io/">Prof. Guangdong Bai</a>, where my 
@@ -118,6 +118,44 @@ research focused on privacy and security in software systems.</p>
     <li>
       When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE]
       &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/Voice_Meets_Touch-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
+    </li>
+  </ul>
+</section>
+
+
+<section>
+  <h2>Education</h2>
+  <ul>
+    <li>
+      <strong>Doctor of Philosophy in Computer Science</strong>, 2022 – 2026<br>
+      The University of Queensland, Australia<br>
+      Supervisors: Guangdong Bai (primary), <a href="https://guoweiyang.github.io/">Guowei Yang</a>, <a href="https://staff.itee.uq.edu.au/huang/">Zi (Helen) Huang</a>
+    </li>
+    <li>
+      <strong>Master of Engineering in Software</strong>, 2021<br>
+      The University of Queensland, Australia
+    </li>
+    <li>
+      <strong>Bachelor of Software Engineering (Honours)</strong>, 2016 – 2020<br>
+      The University of Queensland, Australia
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <ul>
+    <li>
+      <strong>Postdoctoral Researcher</strong>, 2025 – Present<br>
+      UQ & TECH4HSE, Australia
+    </li>
+    <li>
+      <strong>Research Assistant</strong>, 2025<br>
+      UQ & TECH4HSE, Australia
+    </li>
+    <li>
+      <strong>Thesis Mentor</strong>, 2023 – Present<br>
+      The University of Queensland, Australia
     </li>
   </ul>
 </section>
