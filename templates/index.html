@@ -1,23 +1,22 @@
-{% extends “base.html” %}
+{% extends "base.html" %}
 {% block content %}
 
-{% set news_section = get_section(path=”news/_index.md”) %}
-{% set news_pages = news_section.pages | sort(attribute=”date”) | reverse %}
+{% set news_section = get_section(path="news/_index.md") %}
+{% set news_pages = news_section.pages | sort(attribute="date") | reverse %}
 
 <!-- News ticker bar -->
-<div style=”background:#2c2c2c;padding:0.45rem 0;overflow:hidden;white-space:nowrap;position:relative;”>
-  <span style=”color:#f0c040;font-weight:700;font-size:0.82rem;letter-spacing:0.08em;padding:0 1.2rem;vertical-align:middle;”>NEWS</span>
-  <span style=”display:inline-block;overflow:hidden;width:calc(100% - 5rem);vertical-align:middle;”>
-    <span class=”news-ticker-track” style=”display:inline-block;animation:ticker-scroll 40s linear infinite;”>
-      {% for page in news_pages | slice(end=10) %}
-        <span style=”color:#e0e0e0;font-size:0.82rem;margin-right:3rem;”>
-          <span style=”color:#aaa;margin-right:0.4rem;”>{{ page.date }}</span>{{ page.title }}
+<div style="background:#2c2c2c;padding:0.45rem 0;overflow:hidden;white-space:nowrap;position:relative;">
+  <span style="color:#f0c040;font-weight:700;font-size:0.82rem;letter-spacing:0.08em;padding:0 1.2rem;vertical-align:middle;">NEWS</span>
+  <span style="display:inline-block;overflow:hidden;width:calc(100% - 5rem);vertical-align:middle;">
+    <span class="news-ticker-track" style="display:inline-block;animation:ticker-scroll 40s linear infinite;">
+      {% for item in news_pages | slice(end=10) %}
+        <span style="color:#e0e0e0;font-size:0.82rem;margin-right:3rem;">
+          <span style="color:#aaa;margin-right:0.4rem;">{{ item.date }}</span>{{ item.title }}
         </span>
       {% endfor %}
-      <!-- duplicate for seamless loop -->
-      {% for page in news_pages | slice(end=10) %}
-        <span style=”color:#e0e0e0;font-size:0.82rem;margin-right:3rem;”>
-          <span style=”color:#aaa;margin-right:0.4rem;”>{{ page.date }}</span>{{ page.title }}
+      {% for item in news_pages | slice(end=10) %}
+        <span style="color:#e0e0e0;font-size:0.82rem;margin-right:3rem;">
+          <span style="color:#aaa;margin-right:0.4rem;">{{ item.date }}</span>{{ item.title }}
         </span>
       {% endfor %}
     </span>
@@ -34,35 +33,35 @@
 }
 </style>
 
-<section class=”section”>
-    <div class=”container”>
-        <div class=”columns is-desktop”>
-            <div class=”column is-10 is-offset-1”>
-                <div class=”columns is-desktop”>
-                    <div class=”column is-one-third-desktop”>
-                        <div class=”box has-text-centered”>
+<section class="section">
+    <div class="container">
+        <div class="columns is-desktop">
+            <div class="column is-10 is-offset-1">
+                <div class="columns is-desktop">
+                    <div class="column is-one-third-desktop">
+                        <div class="box has-text-centered">
 
-                            <figure class=”image is-192x192 is-centered is-inline-block”>
-                                <img src=”{{ config.extra.image }}” alt=”Fuman Xie” style=”width:200px;height:200px;margin-bottom: 30px;”>
+                            <figure class="image is-192x192 is-centered is-inline-block">
+                                <img src="{{ config.extra.image }}" alt="Fuman Xie" style="width:200px;height:200px;margin-bottom: 30px;">
                             </figure>
 
-                            <div class=”is-size-4”><strong>{{ config.extra.author }}</strong></div>
+                            <div class="is-size-4"><strong>{{ config.extra.author }}</strong></div>
                             {% for organization in config.extra.organizations %}
-                            <div class=”p content”>{{ organization.name }}</div>
+                            <div class="p content">{{ organization.name }}</div>
                             {% endfor %}
-                            <div class=”content”>
+                            <div class="content">
                                 {% for icon in config.extra.social_icons %}
-                                <a class=”icon is-large fa-xl” href=”{{icon.link | safe }}” target=”_blank” >
-                                    <i class=”{{icon.icon_pack}} {{ icon.icon }}” style=”color:#999999;”></i>
+                                <a class="icon is-large fa-xl" href="{{ icon.link | safe }}" target="_blank">
+                                    <i class="{{ icon.icon_pack }} {{ icon.icon }}" style="color:#999999;"></i>
                                 </a>
                                 {% endfor %}
                             </div>
                         </div>
                     </div>
-                    <div class=”column is-two-thirds-desktop”>
-                        <div class=”content” style=”margin-top: 1rem;”>
+                    <div class="column is-two-thirds-desktop">
+                        <div class="content" style="margin-top: 1rem;">
                             {% for page in section.pages %}
-                            {% if page.relative_path == “about.md” %}
+                            {% if page.relative_path == "about.md" %}
                             <h1>{{ page.title }}</h1>
                             {{ page.content | safe }}
                             {% endif %}

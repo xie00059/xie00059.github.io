@@ -62,9 +62,9 @@ transparent = false
   On the academic job market
 </span>
 
-<p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;">
+<!-- <p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;">
   Postdoctoral Researcher · The University of Queensland
-</p>
+</p> -->
 
 <hr>
 
