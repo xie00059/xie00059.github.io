@@ -75,7 +75,7 @@ transparent = false
 <p>My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.</p>
 
 <div style="margin-top:1.5rem;">
-  <span class="tag is-rounded" style="background:#2b4d4e;color:#fff;margin:0.2rem;">Software Privacy</span>
-  <span class="tag is-rounded" style="background:#1e3a5f;color:#fff;margin:0.2rem;">Privacy Testing</span>
-  <span class="tag is-rounded" style="background:#1d4d3a;color:#fff;margin:0.2rem;">Privacy Compliance</span>
+  <span class="tag is-rounded" style="background:#f8b4b4;color:#333;margin:0.2rem;">Software Privacy</span>
+  <span class="tag is-rounded" style="background:#fde68a;color:#333;margin:0.2rem;">Privacy Testing</span>
+  <span class="tag is-rounded" style="background:#bfdbfe;color:#333;margin:0.2rem;">Privacy Compliance</span>
 </div>

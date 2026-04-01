@@ -21,8 +21,6 @@ unsafe = true
 # Author of the page
 author = "Fuman Xie"
 
-# Role of the author
-role = "PhD Candidate"
 
 # Organizations of the author
 organizations = [ { name = "The University of Queensland" } ]
