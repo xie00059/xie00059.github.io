@@ -109,14 +109,14 @@ research focused on privacy and security in software systems.</p>
   <p>2. <b>[Software Testing]</b> Testing and quality assurance underpin much of my privacy research. I also collaborate on broader software testing projects, applying similar analytical approaches to different software ecosystems.</p>
   <ul>
     <li>
-      Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations[ISSTA'25]
+      Identifying Multi-Parameter Constraint Errors in Python Data Science Library API Documentations [ISSTA'25]
       &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/pythondoc-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3728945">DOI</a>
     </li>
     <li>
-      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM] &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/vuitesting-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
+      VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents [TOSEM’25] &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/vuitesting-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1145/3771555">DOI</a>
     </li>
     <li>
-      When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE]
+      When Voice Meets Touch: Conflict Analysis in Mobile Applications [TSE’26]
       &nbsp;·&nbsp; <a href="https://xie00059.github.io/publications/Voice_Meets_Touch-paper.pdf">PDF</a> &nbsp;·&nbsp; <a href="https://doi.org/10.1109/TSE.2026.3656691">DOI</a>
     </li>
   </ul>
