@@ -77,8 +77,5 @@ transparent = false
 <div style="margin-top:1.5rem;">
   <span class="tag is-rounded" style="background:#2b4d4e;color:#fff;margin:0.2rem;">Software Privacy</span>
   <span class="tag is-rounded" style="background:#1e3a5f;color:#fff;margin:0.2rem;">Privacy Testing</span>
-  <span class="tag is-rounded" style="background:#1d4d3a;color:#fff;margin:0.2rem;">VPA Services</span>
-  <span class="tag is-rounded" style="background:#1d3a6b;color:#fff;margin:0.2rem;">NLP</span>
-  <span class="tag is-rounded" style="background:#6b2d1a;color:#fff;margin:0.2rem;">Black-box Testing</span>
   <span class="tag is-rounded" style="background:#1d4d3a;color:#fff;margin:0.2rem;">Privacy Compliance</span>
 </div>
