@@ -57,4 +57,32 @@ transparent = false
 [extra]
 +++
 
-I am a Postdoctoral Researcher at the UQ Trust Lab, The University of Queensland, and I am currently on the academic job market. Before that, I received my Ph.D. from UQ, where my research focused on privacy and security in software systems. My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.
+<span class="tag is-success is-rounded" style="margin-bottom: 1.5rem;">
+  <span style="display:inline-block;width:8px;height:8px;background:#48c774;border-radius:50%;margin-right:6px;"></span>
+  On the academic job market
+</span>
+
+<p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;">
+  Postdoctoral Researcher · UQ Trust Lab
+</p>
+
+<p style="border-left:3px solid #ccc;padding-left:0.75rem;margin-bottom:1.5rem;color:#666;">
+  The University of Queensland
+</p>
+
+<hr>
+
+<p>I am a Postdoctoral Researcher at the UQ Trust Lab, The University of Queensland, and I am currently on the academic job market.</p>
+
+<p>Before that, I received my Ph.D. from UQ, where my research focused on privacy and security in software systems.</p>
+
+<p>My research interests include Software Privacy and Testing, specifically focusing on Virtual Personal Assistant (VPA) services. I'm also broadly interested in applying black-box testing and natural language processing techniques to assess and enhance the privacy compliance of software systems.</p>
+
+<div style="margin-top:1.5rem;">
+  <span class="tag is-rounded" style="background:#2b4d4e;color:#fff;margin:0.2rem;">Software Privacy</span>
+  <span class="tag is-rounded" style="background:#1e3a5f;color:#fff;margin:0.2rem;">Privacy Testing</span>
+  <span class="tag is-rounded" style="background:#1d4d3a;color:#fff;margin:0.2rem;">VPA Services</span>
+  <span class="tag is-rounded" style="background:#1d3a6b;color:#fff;margin:0.2rem;">NLP</span>
+  <span class="tag is-rounded" style="background:#6b2d1a;color:#fff;margin:0.2rem;">Black-box Testing</span>
+  <span class="tag is-rounded" style="background:#1d4d3a;color:#fff;margin:0.2rem;">Privacy Compliance</span>
+</div>
