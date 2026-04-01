@@ -63,16 +63,12 @@ transparent = false
 </span>
 
 <p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;">
-  Postdoctoral Researcher · UQ Trust Lab
-</p>
-
-<p style="border-left:3px solid #ccc;padding-left:0.75rem;margin-bottom:1.5rem;color:#666;">
-  The University of Queensland
+  Postdoctoral Researcher · The University of Queensland
 </p>
 
 <hr>
 
-<p>I am a Postdoctoral Researcher at the UQ Trust Lab, The University of Queensland, and I am currently on the academic job market.</p>
+<p>I am a Postdoctoral Researcher at EECS school, the University of Queensland, and I am currently on the academic job market.</p>
 
 <p>Before that, I received my Ph.D. from UQ, where my research focused on privacy and security in software systems.</p>
 
