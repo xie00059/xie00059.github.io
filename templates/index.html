@@ -5,33 +5,48 @@
 {% set news_pages = news_section.pages | sort(attribute="date") | reverse %}
 
 <!-- News ticker bar -->
-<div style="background:#2c2c2c;padding:0.45rem 0;overflow:hidden;white-space:nowrap;position:relative;">
-  <span style="color:#f0c040;font-weight:700;font-size:0.82rem;letter-spacing:0.08em;padding:0 1.2rem;vertical-align:middle;">NEWS</span>
-  <span style="display:inline-block;overflow:hidden;width:calc(100% - 5rem);vertical-align:middle;">
-    <span class="news-ticker-track" style="display:inline-block;animation:ticker-scroll 40s linear infinite;">
-      {% for item in news_pages | slice(end=10) %}
-        <span style="color:#e0e0e0;font-size:0.82rem;margin-right:3rem;">
-          <span style="color:#aaa;margin-right:0.4rem;">{{ item.date }}</span>{{ item.title }}
-        </span>
-      {% endfor %}
-      {% for item in news_pages | slice(end=10) %}
-        <span style="color:#e0e0e0;font-size:0.82rem;margin-right:3rem;">
-          <span style="color:#aaa;margin-right:0.4rem;">{{ item.date }}</span>{{ item.title }}
-        </span>
-      {% endfor %}
-    </span>
-  </span>
+<div style="background:#fff;border-bottom:1px solid #e0e0e0;padding:0.45rem 0;display:flex;align-items:center;">
+  <span style="color:#c0392b;font-weight:700;font-size:0.82rem;letter-spacing:0.08em;padding:0 1.2rem;flex-shrink:0;">NEWS</span>
+  <div id="news-ticker-scroll" style="overflow-x:scroll;overflow-y:hidden;white-space:nowrap;flex:1;cursor:grab;user-select:none;scrollbar-width:none;-ms-overflow-style:none;">
+    {% for item in news_pages | slice(end=10) %}
+      <span style="color:#333;font-size:0.82rem;margin-right:2.5rem;display:inline-block;">
+        <span style="color:#999;margin-right:0.4rem;">{{ item.date }}</span>{{ item.title }}
+      </span>
+    {% endfor %}
+  </div>
 </div>
 
 <style>
-@keyframes ticker-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-.news-ticker-track:hover {
-  animation-play-state: paused;
-}
+#news-ticker-scroll::-webkit-scrollbar { display: none; }
+#news-ticker-scroll.grabbing { cursor: grabbing; }
 </style>
+
+<script>
+(function() {
+  var el = document.getElementById('news-ticker-scroll');
+  var isDown = false, startX, scrollLeft;
+  el.addEventListener('mousedown', function(e) {
+    isDown = true;
+    el.classList.add('grabbing');
+    startX = e.pageX - el.offsetLeft;
+    scrollLeft = el.scrollLeft;
+  });
+  document.addEventListener('mouseup', function() {
+    isDown = false;
+    el.classList.remove('grabbing');
+  });
+  el.addEventListener('mousemove', function(e) {
+    if (!isDown) return;
+    e.preventDefault();
+    var x = e.pageX - el.offsetLeft;
+    el.scrollLeft = scrollLeft - (x - startX);
+  });
+  el.addEventListener('wheel', function(e) {
+    e.preventDefault();
+    el.scrollLeft += e.deltaY + e.deltaX;
+  }, { passive: false });
+})();
+</script>
 
 <section class="section">
     <div class="container">
