@@ -172,28 +172,22 @@ research focused on privacy and security in software systems.</p>
   <h2>Selected Awards &amp; Grants</h2>
   <ul>
     <li>
-      <strong>UQ-TUM Travel Grant Scheme</strong>, 2025<br>
-      UQ Global Partnerships
+      <strong>UQ-TUM Travel Grant Scheme</strong>, 2025, UQ Global Partnerships
     </li>
     <li>
-      <strong>ACM SIGSOFT CAPS Scholarship</strong>, 2024<br>
-      ICSE'24
+      <strong>ACM SIGSOFT CAPS Scholarship</strong>, ICSE'24
     </li>
     <li>
-      <strong>ACM Student Mentor Workshop Scholarship</strong>, 2023<br>
-      ICSE'23
+      <strong>ACM Student Mentor Workshop Scholarship</strong>, ICSE'23
     </li>
     <li>
-      <strong>ACM SIGSOFT CAPS Scholarship</strong>, 2022<br>
-      ASE'22
+      <strong>ACM SIGSOFT CAPS Scholarship</strong>, ASE'22
     </li>
     <li>
-      <strong>Best Paper Runner-Up</strong>, 2021<br>
-      ADMA'21
+      <strong>Best Paper Runner-Up</strong>, ADMA'21
     </li>
     <li>
-      <strong>Dean's Commendation for Academic Excellence</strong>, 2021<br>
-      The University of Queensland
+      <strong>Dean's Commendation for Academic Excellence</strong>, 2021, The University of Queensland
     </li>
   </ul>
 </section>
