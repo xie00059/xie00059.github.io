@@ -135,7 +135,7 @@ research focused on privacy and security in software systems.</p>
     </li>
     <li>
       <strong>Master of Engineering in Software</strong>, 2021<br>
-      The University of Queensland, Australia
+      The University of Queensland, Australia<br>
       · Receive the Dean’s Commendation for Academic Excellence
     </li>
     <li>
@@ -155,6 +155,7 @@ research focused on privacy and security in software systems.</p>
       UQ & CSIRO, Australia<br>
       · Advisors: <a href="https://scholar.google.com/citations?user=0vCxuH4AAAAJ&hl=en">Zhenchang Xing</a>, <a href="https://people.csiro.au/B/M/mohan-baruwalchhetri">Mohan Baruwal Chhetri</a>, and <a href="https://about.uq.edu.au/experts/25114">Naipeng Dong</a>
     </li>
+    <li>
       <strong>Research Assistant</strong>, 2025<br>
       UQ & CSIRO, Australia
     </li>
