@@ -165,3 +165,82 @@ research focused on privacy and security in software systems.</p>
     </li>
   </ul>
 </section>
+
+<hr style="margin-top:2rem;">
+
+<section>
+  <h2>Selected Awards &amp; Grants</h2>
+  <ul>
+    <li>
+      <strong>UQ-TUM Travel Grant Scheme</strong>, 2025<br>
+      UQ Global Partnerships
+    </li>
+    <li>
+      <strong>ACM SIGSOFT CAPS Scholarship</strong>, 2024<br>
+      The IEEE/ACM International Conference on Software Engineering (ICSE'24)
+    </li>
+    <li>
+      <strong>Student Mentor Workshop Scholarship</strong>, 2023<br>
+      The IEEE/ACM International Conference on Software Engineering (ICSE'23)
+    </li>
+    <li>
+      <strong>ACM SIGSOFT CAPS Scholarship</strong>, 2022<br>
+      The IEEE/ACM International Conference on Automated Software Engineering (ASE'22)
+    </li>
+    <li>
+      <strong>Best Paper Runner-Up</strong>, 2021<br>
+      The International Conference on Advanced Data Mining and Applications (ADMA'21)
+    </li>
+    <li>
+      <strong>Dean's Commendation for Academic Excellence</strong>, 2021<br>
+      The University of Queensland
+    </li>
+  </ul>
+</section>
+
+<hr style="margin-top:2rem;">
+
+<section>
+  <h2>Talks &amp; Visits</h2>
+  <ul>
+    <li>
+      <strong>Guest Lecture</strong>, 2026<br>
+      University of Queensland<br>
+      · <em>"AI for Text Analysis"</em>
+    </li>
+    <li>
+      <strong>Conference Presentation</strong>, PoPETs'24<br>
+      · <em>"On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications"</em>
+    </li>
+    <li>
+      <strong>Conference Presentation</strong>, ICSE'24<br>
+      · <em>"Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps"</em>
+    </li>
+    <li>
+      <strong>Conference Presentation</strong>, ASE'22<br>
+      · <em>"Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps"</em>
+    </li>
+    <li>
+      <strong>Research Visit</strong>, Nanyang Technological University, 2023<br>
+      · Worked at NTU's SRSLab under the supervision of <a href="https://liyiweb.com/">A/Prof. Yi Li</a>
+    </li>
+  </ul>
+</section>
+
+<hr style="margin-top:2rem;">
+
+<section>
+  <h2>Academic Services</h2>
+  <p><strong>Organizing Committee</strong></p>
+  <ul>
+    <li>Publicity Co-chair, ICECCS'26</li>
+    <li>Area Chair, TheWebConf 2026 Workshop TIME (TIME'26)</li>
+    <li>Volunteer, IWQoS'25, ICSE'23, ICFEM'23, ADMA'22</li>
+  </ul>
+  <p><strong>Program Committee &amp; Reviewers</strong></p>
+  <ul>
+    <li>TDSC'25, ICSE'25 (Shadow PC), MSR'23 (Junior PC)</li>
+    <li>NDSS'26, NDSS'25, NDSS'24, ICSE'24 (Artifact Evaluation), MSR'25 (Technical PC)</li>
+    <li>Sub-reviewer: IJCAI'23, ASE'23, NDSS'24, ICSE'24, ICSE'25, ICSE'26</li>
+  </ul>
+</section>
