@@ -187,7 +187,7 @@ research focused on privacy and security in software systems.</p>
       <strong>Best Paper Runner-Up</strong>, ADMA'21
     </li>
     <li>
-      <strong>Dean's Commendation for Academic Excellence</strong>, 2021, The University of Queensland
+      <strong>Dean's Commendation for Academic Excellence</strong>, 2021, UQ
     </li>
   </ul>
 </section>
@@ -215,7 +215,7 @@ research focused on privacy and security in software systems.</p>
     </li>
     <li>
       <strong>Research Visit</strong>, Nanyang Technological University, 2023<br>
-      · Worked at NTU's SRSLab under the supervision of <a href="https://liyiweb.com/">A/Prof. Yi Li</a>
+      · Worked at NTU's SRSLab under the supervision of <a href="https://liyiweb.com/">Prof. Yi Li</a>
     </li>
   </ul>
 </section>
