@@ -64,7 +64,7 @@ transparent = false
 
 <hr>
 
-<p>I am a Postdoctoral Researcher at the TECH4HSE project, jointly affiliated with the University of Queensland and CSIRO's Data61, and I am currently on the academic job market.</p>
+<p>I am a Postdoctoral Researcher at the TECH4HSE project, jointly affiliated with the University of Queensland and CSIRO, and I am currently open to research and industry opportunities.</p>
 
 <p>Before that, I received my Ph.D. from UQ under the supervision of 
 <a href="https://baigd.github.io/">Prof. Guangdong Bai</a>, where my 
