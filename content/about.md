@@ -57,10 +57,6 @@ transparent = false
 [extra]
 +++
 
-<span class="tag is-success is-rounded" style="margin-bottom: 1.5rem;">
-  <span style="display:inline-block;width:8px;height:8px;background:#48c774;border-radius:50%;margin-right:6px;"></span>
-  On the academic job market
-</span>
 
 <!-- <p style="font-size:0.85rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.4rem;">
   Postdoctoral Researcher · The University of Queensland
